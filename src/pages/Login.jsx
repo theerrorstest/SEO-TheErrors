@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { ArrowRight, Lock } from 'lucide-react';
-import SeedAdmin from '../components/SeedAdmin';
+
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -108,7 +108,7 @@ const Login = () => {
                         </p>
                     </div>
 
-                    <SeedAdmin />
+
                 </div>
 
                 {/* Loading Overlay */}
